@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Essam Moussaoui — Portfolio Cybersécurité</title>
+  
+  <!-- importation des polices Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+  
+  <!-- Importation du fichier CSS externe -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+  <!-- NAVIGATION PRINCIPALE -->
+  <nav>
+    <div class="nav-logo">ESSAM.DEV</div>
+    <ul class="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#formation">Formation</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-status">
+      <div class="status-dot"></div>
+      ONLINE
+    </div>
+  </nav>
+ 
+  <!-- SECTION HERO -->
+  <section id="hero">
+    <!-- fond semi transparent en arrière plan -->
+    <div class="hero-bg">CYB</div>
+    
+    <div class="hero-content">
+      <!-- tag de positionnement -->
+      <div class="hero-tag">BUT R&T - Cybersécurité</div>
+      
+      <!-- titre principal avec dégradé sur le prenom -->
+      <h1 class="hero-name">
+        ESSAM<br><span class="accent">MOUSSAOUI</span>
+      </h1>
+      
+      <!-- sous titre avec domaines de compétence -->
+      <p class="hero-subtitle">Pentesting · Réseaux · Infrastructure Sécurisée</p>
+      
+      <!-- description courte du profil -->
+      <p class="hero-desc">
+        Étudiant en 2ème année du <strong>BUT Réseaux & Télécommunications</strong>, parcours <strong>Cybersécurité</strong>.
+        Spécialisé en sécurité offensive, architecture réseau sécurisée et analyse de vulnérabilités.
+        Passionné par la résolution de problèmes complexes en environnement virtualisé
+      </p>
+      
+      <!-- boutons d'action avec liens vers sections -->
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Contactez-moi</a>
+        <a href="#projects" class="btn btn-secondary">Voir les projets</a>
+      </div>
+      
+      <!-- stats du profil -->
+      <div class="hero-stats">
+        <div>
+          <div class="stat-val">20+</div>
+          <div class="stat-label">Projets SAE</div>
+        </div>
+        <div>
+          <div class="stat-val">2/3</div>
+          <div class="stat-label">Années BUT</div>
+        </div>
+        <div>
+          <div class="stat-val">CYB</div>
+          <div class="stat-label">Parcours</div>
+        </div>
+        <div>
+          <div class="stat-val">∞</div>
+          <div class="stat-label">Passion</div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- SECTION A PROPOS -->
+  <section id="about">
+    <div class="about-grid">
+      <!-- simulateur de terminal linux pour le whoami -->
+      <div class="terminal reveal">
+        <div class="terminal-header">
+          <div class="term-dot red"></div>
+          <div class="term-dot yellow"></div>
+          <div class="term-dot blue"></div>
+          <div class="terminal-title">essam@cybersec:~$ whoami</div>
+        </div>
+        <div class="terminal-body">
+          <!-- lignes du terminal avec prompt et commandes -->
+          <div class="t-line">
+            <span class="t-prompt">$</span>
+            <span class="t-cmd">cat profile.txt</span>
+          </div>
+          <div class="t-line"><span class="t-out"></span></div>
+          <div class="t-line">
+            <span class="t-out hi">=== PROFIL ===</span>
+          </div>
+          <div class="t-line">
+            <span class="t-out">Nom: Essam Moussaoui</span>
+          </div>
+          <div class="t-line">
+            <span class="t-out">Localité: Villeneuve-La-Garenne</span>
+          </div>
+          <div class="t-line">
+            <span class="t-out">Formation: BUT R&T - CYB</span>
+          </div>
+          <div class="t-line"><span class="t-out"></span></div>
+          <div class="t-line">
+            <span class="t-out hi">=== POINTS FORTS ===</span>
+          </div>
+          <div class="t-line">
+            <span class="t-out">[✔] Diagnostic & Résolution d'incidents (Analyse Wireshark)</span>
+          </div>
+          <div class="t-line">
+            <span class="t-out">[✔] Organisation & Rigueur technique (Planification Trello)</span>
+          </div>
+          <div class="t-line">
+            <span class="t-out">[✔] Travail collaboratif & Écoute active (Projets SAE)</span>
+          </div>
+          <div class="t-line"><span class="t-out"></span></div>
+          <div class="t-line">
+            <span class="t-prompt">$</span> <span class="t-cmd">_</span>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- section texte avec description personnelle -->
+      <div class="about-text reveal">
+        <div class="section-header">
+          <div class="section-tag">À propos</div>
+        </div>
+        
+        <!-- paragraphes de présentation -->
+<p>
+        Actuellement en 2e année de <strong>BUT Réseaux et Télécommunications</strong>, parcours Cybersécurité, à l'IUT de Villetaneuse. Passionné par la sécurité informatique, j'aime comprendre comment fonctionnent les réseaux pour mieux les protéger !
+      </p>
+      
+      <p>
+        Au fil de ma formation, j'ai appris à administrer des infrastructures (VLAN, routage, pare-feu) et à réaliser des <strong>tests d'intrusion</strong> (Nessus, Metasploit). J'ai mis ces compétences en pratique lors de projets concrets, comme la conception d'architectures réseau sécurisées.
+      </p>
+      
+      <p>
+        <strong>À la recherche d'un stage de 8 à 10 semaines</strong> à partir du 20 avril 2026. Mon objectif est de contribuer concrètement à la protection des systèmes d'information tout en apprenant sur le terrain.
+      </p>
+        
+        <!-- grille d'informations contact -->
+        <div class="info-grid">
+          <div class="info-item">
+            <div class="info-label">Email</div>
+            <div class="info-val">messam92390@gmail.com</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">Langues</div>
+            <div class="info-val">FR · EN (B1+)</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">Localité</div>
+            <div class="info-val">Villeneuve-La-Garenne</div>
+          </div>
+          <div class="info-item">
+              <div class="info-label">🚨 Stage</div>
+              <div class="info-val status-urgent">20 Avril 2026 (durée 8 semaines)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- SECTION COMPETENCES -->
+  <section id="skills">
+    <div class="section-header reveal">
+      <div class="section-tag">Compétences</div>
+      <h2 class="section-title">Stack Technique</h2>
+    </div>
+ 
+    <!-- grille 3 colonnes avec les categories de competences -->
+    <div class="skills-grid">
+      <!-- Catégorie 1 : Cybersécurité -->
+      <div class="skill-box reveal">
+        <div class="skill-title">🔐 Cybersécurité</div>
+        <div class="skill-list">
+          <div class="skill-item">Pentesting (Kali Linux)</div>
+          <div class="skill-item">Metasploit</div>
+          <div class="skill-item">Nessus (vulnérabilités)</div>
+          <div class="skill-item">iptables / pare-feu</div>
+        </div>
+      </div>
+ 
+      <!-- Catégorie 2 : Réseaux & Systèmes -->
+      <div class="skill-box reveal">
+        <div class="skill-title">🌐 Réseaux & Systèmes</div>
+        <div class="skill-list">
+          <div class="skill-item">pfSense / VLAN</div>
+          <div class="skill-item">TCP/IP, DNS, DHCP</div>
+          <div class="skill-item">Linux (Ubuntu/Bash)</div>
+          <div class="skill-item">GNS3 / Packet Tracer</div>
+        </div>
+      </div>
+ 
+      <!-- Catégorie 3 : Programmation -->
+      <div class="skill-box reveal">
+        <div class="skill-title">💻 Programmation</div>
+        <div class="skill-list">
+          <div class="skill-item">Python</div>
+          <div class="skill-item">HTML / CSS</div>
+          <div class="skill-item">SQL</div>
+          <div class="skill-item">Git & GitHub</div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- SECTION PROJETS -->
+  <section id="projects">
+    <div class="projects-container">
+      <div class="section-header reveal">
+        <div class="section-tag">Projets</div>
+        <h2 class="section-title">Réalisations Académiques</h2>
+      </div>
+ 
+      <!-- Projet 1 : Projet Nova -->
+      <div class="project reveal">
+        <div class="project-header">
+          <h3 class="project-title">Projet Nova — Infrastructure Sécurisée</h3>
+          <span class="project-date">2024-2025 | SAE303</span>
+        </div>
+        <div class="project-tags">
+          <span class="tag cyb">Cybersécurité</span>
+          <span class="tag net">Infrastructure</span>
+          <span class="tag net">Réseaux</span>
+        </div>
+        <p class="project-desc">
+          Conception d'une infrastructure réseau sécurisée : 4 VLANs segmentés, 
+          configuration pfSense, déploiement GLPI, documentation technique
+        </p>
+      </div>
+ 
+      <!-- Projet 2 : Pentesting -->
+      <div class="project reveal">
+        <div class="project-header">
+          <h3 class="project-title">Pentesting — Analyse de Vulnérabilités</h3>
+          <span class="project-date">2024-2025 | SAE304</span>
+        </div>
+        <div class="project-tags">
+          <span class="tag cyb">Pentesting</span>
+          <span class="tag cyb">Exploitation</span>
+        </div>
+        <p class="project-desc">
+          Pentesting en environnement contrôlé : reconnaissance, scans Nessus, 
+          exploitation de failles avec Metasploit, rapport structuré
+        </p>
+      </div>
+ 
+      <!-- Projet 3 : Reseau Linux -->
+      <div class="project reveal">
+        <div class="project-header">
+          <h3 class="project-title">Réseau Virtuel Linux — Marionnet</h3>
+          <span class="project-date">2024-2025 | SAE</span>
+        </div>
+        <div class="project-tags">
+          <span class="tag net">Réseaux</span>
+          <span class="tag net">Linux</span>
+        </div>
+        <p class="project-desc">
+          Configuration complète d'un réseau virtuel : interfaces, routage IP, 
+          iptables, DNS/DHCP, tests de connectivité
+        </p>
+      </div>
+ 
+      <!-- Projet 4 : Analyse COVID-19 -->
+      <div class="project reveal">
+        <div class="project-header">
+          <h3 class="project-title">Analyse COVID-19 — Données & Web</h3>
+          <span class="project-date">2023-2024 | SAE15</span>
+        </div>
+        <div class="project-tags">
+          <span class="tag dev">Python</span>
+          <span class="tag dev">Data</span>
+        </div>
+        <p class="project-desc">
+          Programme Python pour analyser des données de vaccination : 
+          statistiques, graphiques, génération automatique de site web statique
+        </p>
+      </div>
+ 
+      <!-- Projet 5 : Vidéo de sensibilisation -->
+      <div class="project reveal">
+        <div class="project-header">
+          <h3 class="project-title">Vidéo de Sensibilisation — Cybersécurité</h3>
+          <span class="project-date">2023-2024 | SAE14</span>
+        </div>
+        <div class="project-tags">
+          <span class="tag dev">Communication</span>
+          <span class="tag dev">Vidéo</span>
+        </div>
+        <p class="project-desc">
+          Création d'une vidéo de sensibilisation aux bonnes pratiques de sécurité : 
+          script, montage Adobe, communication sur les risques
+        </p>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- SECTION FORMATION -->
+  <section id="formation">
+    <div class="section-header reveal">
+      <div class="section-tag">Formation</div>
+      <h2 class="section-title">Parcours Académique</h2>
+    </div>
+ 
+    <!-- grille des formations -->
+    <div class="formation-grid">
+      <!-- Formation 1 : BUT RT -->
+      <div class="formation-item reveal">
+        <div class="formation-year">SEPT 2024 — PRÉSENT</div>
+        <div class="formation-degree">BUT Réseaux & Télécommunications</div>
+        <div class="formation-school">Université Sorbonne Paris Nord — Villetaneuse</div>
+        <ul class="formation-list">
+          <li>Parcours Cybersécurité</li>
+          <li>Administrer les systèmes et réseaux ✓ ■■■■■■■■■■ 100%</li>
+          <li>Connecter les entreprises et usagers ✓ ■■■■■■■■■■ 100%</li>
+          <li>Créer des outils et applications ✓ ■■■■■■■■■■ 100%</li>
+          <li>Administrer un système d'information sécurisé ↺ ■■■■■■■■□□ 80%</li>
+          <li>Surveiller un système d'information sécurisé ↺ ■■■■■■■■□□ 80%</li>
+        </ul>
+      </div>
+ 
+      <!-- Formation 2 : Bac -->
+      <div class="formation-item reveal">
+        <div class="formation-year">SEPT 2021 — JUIN 2024</div>
+        <div class="formation-degree">Baccalauréat Général</div>
+        <div class="formation-school">Spécialités Mathématiques & Physique-Chimie</div>
+        <ul class="formation-list">
+          <li>Option Maths expertes ✓ ■■■■■■■■■■ 100%</li>
+          <li>Spécialité AMC (première) ✓ ■■■■■■■■■■ 100%</li>
+          <li>Diplôme obtenu ✓ ■■■■■■■■■■ 100%</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- SECTION CONTACT -->
+  <section id="contact">
+    <div class="contact-container">
+      <!-- en tete de la section -->
+      <div class="section-header" style="text-align: center;">
+        <div class="section-tag" style="justify-content: center;">Contact</div>
+        <h2 class="section-title">Passons à l'action.</h2>
+      </div>
+ 
+      <!-- texte descriptif du stage -->
+      <p class="contact-subtitle">
+        Disponible pour un <strong>stage de 8 à 10 semaines</strong> à partir du 
+        <strong>20 avril 2026</strong> dans la cybersécurité et les réseaux informatiques
+      </p>
+ 
+      <!-- liens contact (email, linkedin, github) -->
+      <div class="contact-links">
+        <a href="mailto:messam92390@gmail.com" class="contact-link">
+          ✉ Email
+        </a>
+        <a href="https://www.linkedin.com/in/essam-moussaoui" target="_blank" class="contact-link">
+          💼 LinkedIn
+        </a>
+        <a href="https://github.com/Atomik34" target="_blank" class="contact-link">
+          🐙 GitHub
+        </a>
+      </div>
+ 
+      <!-- bouton principal d'appel a l'action -->
+      <a href="mailto:messam92390@gmail.com" class="btn btn-primary">
+        ENVOYER UN MESSAGE
+      </a>
+    </div>
+  </section>
+ 
+  <!-- FOOTER -->
+  <footer>
+    © 2026 <strong>ESSAM MOUSSAOUI</strong> — Portfolio Cybersécurité<br>
+    <strong>BUT R&T</strong> · Parcours Cybersécurité · Sorbonne Paris Nord
+  </footer>
+ 
+  <!-- SCRIPT EXTERNE java -->
+  <script src="script.js"></script>
+</body>
+</html>
